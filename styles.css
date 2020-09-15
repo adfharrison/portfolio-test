@@ -1,0 +1,143 @@
+
+
+body{
+  
+    max-width: 1200px;
+    margin: auto;
+    background-color: black;
+  }
+  .title{
+  
+    height: 200px;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 75px;
+    color: rgba(235, 238, 244, 1);
+    background-color: rgba(7, 144, 7, 0.3);
+    text-shadow: 4px 4px rgba(1, 1, 1, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    background: linear-gradient(to bottom, rgba(1,1,1,0) 20%, rgba(1,1,1,1)), url(img/ball.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    outline: dashed chartreuse 1px;
+  }
+  .nav{
+    
+    width: 1200px;
+    margin-top: 150px;
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 22px;
+    color: rgba(235, 238, 244, 1);
+    position: fixed;
+    z-index: 11;
+    
+  
+  }
+  #navlist{
+  
+    display:flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: Verdana;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  
+  }
+  #navlist li {
+  
+    
+  }
+  #navlist a {
+    
+    padding: 40px 40px;
+    margin: 50px ;
+    text-decoration: none;
+    color: rgba(235, 238, 244, 0.8);
+  }
+  #navlist a:hover {
+  
+    color: rgba(235, 238, 244, 1);
+  }
+  
+  .maingrid {
+    
+    display: grid;
+    grid-template-rows: 100px repeat(6, 1fr) ;
+    grid-template-columns: repeat(3, 1fr) ;
+    outline: solid pink 1px;
+    height: 1200px;
+    padding-top: 250px;
+    
+    
+  }
+  
+  h3 {
+
+    font-family: Verdana;
+    font-weight: 400;
+    font-size: 35px;
+    color: rgba(235, 238, 244, 1);
+  }
+
+  .pagetitle {
+
+    grid-area: 1 / 1 / span 1 / span 2;
+    justify-items: center;
+    align-items: center;
+    margin-left: 20px;
+  }
+
+  p {
+
+    font-family: Verdana;
+    font-weight: 200;
+    font-size: 20px;
+    color: rgba(235, 238, 244, 1);
+
+  }
+
+  .content {
+
+    grid-area: 2 / 1 / span 2 / span 2;
+    justify-items: center;
+    align-items: center;
+    margin-left: 40px;
+    padding-top: 40px;
+
+  }
+
+  .fplimage {
+
+    grid-area: 2 / 3 / span 2 / span 2;
+    
+    margin: 5px;
+    padding: none;
+    width: 400px;
+  }
+
+  .teamimage {
+    
+
+    grid-area: 5 / 3 / span 2 / span 2;
+    margin: 5px;
+    width: 400px;
+    
+
+  }
+  
+figcaption {
+
+    font-family: Verdana;
+    font-weight: 100;
+    font-size: 10px;
+    color: rgba(235, 238, 244, 1);
+
+}
