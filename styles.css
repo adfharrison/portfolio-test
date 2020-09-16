@@ -147,6 +147,16 @@ body{
     order: 2;
     
   }
+
+  .bobbylad {
+
+    margin: 5px;
+    width: 100%;
+   
+    align-self: center;
+    order: 3;
+
+  }
   
 figcaption {
 
@@ -162,7 +172,7 @@ figcaption {
     margin: 5px;
     width: 80%;
     align-self: flex-end;
-    order: 3;
+    order: 4;
     
 }
 
@@ -190,3 +200,12 @@ figcaption {
   
     color: rgba(235, 238, 244, 1);
   }
+
+.hyperlink {
+    color: rgba(235, 238, 244, 1);
+}
+
+.hyperlink a:hover {
+
+    color: rgba(235, 238, 244, 0.8);
+}
